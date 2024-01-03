@@ -2,7 +2,7 @@
 Using AI to determine age of fish
 
 ## Highlights
-Accurate age estimates of living marine resources are necessary for use in quantitative statistical age-based stock assessment are contingent on the accurate determination of age. This project had the objective of investigating the utility of computer vision in determining the ages of fish scales. By providing an alternative to manual fish age estimation this work contributes to reducing costs of fish ageing. Below is the abstract of a presentation to stakeholders and some visuals for depicting the results.
+Accurate age estimates of living marine resources are necessary for use in quantitative statistical age-based stock assessment are contingent on the accurate determination of age. This project had the objective of investigating the utility of computer vision models in determining the ages of fish scales. By providing an alternative to manual fish age estimation this work contributes to reducing costs of fish ageing. Below is the abstract of a presentation to stakeholders and some visuals for depicting the results.
 
 The following tools and analysis were used in this project:
 - R for inferential statistics and visualizations
@@ -21,6 +21,6 @@ Figure 2. Training and validation accuracies in each training epoch using artifi
 <img src="fig3.png" align="center" width="500" height="400">
 Figure 3. Group means of training accuracy (A, B) and validation accuracy (C, D) from artificial intelligence model runs for classification of Gulf Menhaden (Brevoortia patronus) scale images. The data evaluated are S2 (ages 0 and 1 y), SC (age 0 to 4 y), and SG (only images used where scale and otolith readings agreed); models were convolutional neural networks (CNN) and deep neural networks (DNN); error bars are 95% confidence intervals.
 
-<img src="fig4.png" align="center" width="500" height="600">
+<img src="fig4.png" align="center" width="500" height="500">
 Figure 4. Saliency maps from computer vision model runs for classification of Gulf Menhaden (Brevoortia patronus) scale images; zero values indicate no influence on outcome, one indicates maximum influence.
 
